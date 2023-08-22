@@ -31,7 +31,6 @@ export const News: React.FC = () => {
                     height: 300,
                     width: 300,
                 }}
-                alt="The house from the offer."
                 src={currentNews?.urlToImage}
             />
             <Modal
@@ -43,10 +42,9 @@ export const News: React.FC = () => {
                 <Box
                     component="img"
                     sx={{
-                        height: `${80}$`,
-                        width: `${80}$`,
+                        height: 600,
+                        width: 600,
                     }}
-                    alt="The house from the offer."
                     src={currentNews?.urlToImage}
                 />
             </Modal>
