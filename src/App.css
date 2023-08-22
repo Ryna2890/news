@@ -37,3 +37,20 @@
     transform: translateY(0px);
   }
 }
+
+.loading {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left:0;
+  right:0;
+  background-color: rgba(98, 98, 98, 0.59);
+  z-index: 9;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 36px;
+  color: #000000;
+}
