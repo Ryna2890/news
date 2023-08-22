@@ -8,7 +8,7 @@ import {
     List,
     ListItem,
     ListItemIcon,
-    ListItemText, Theme, ThemeProvider,
+    ListItemText, Theme,
     Toolbar
 } from "@mui/material";
 import {useState} from "react";

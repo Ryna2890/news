@@ -1,9 +1,8 @@
-import React, {useCallback, useEffect, useMemo, useState} from "react";
+import React, { useEffect, useMemo, useState} from "react";
 import {useFetchNewsQuery} from "../../features/news/news.api.slice";
 import {NewsModel} from "../../features/news/news.models";
 import {MediaCard} from "./MediaCard/MediaCard";
 import {FormControl, InputLabel, Pagination, Select, SelectChangeEvent} from "@mui/material";
-import usePagination from "./Pagination/Pagination";
 import {useAppSelector} from "../../app/hooks";
 import {Preloader} from "../Preloader/Preloader";
 import {MenuItem} from "@mui/material";

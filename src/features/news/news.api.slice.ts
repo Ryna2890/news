@@ -1,6 +1,6 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 import {BASE_URL, NEWS_API_KEY} from "./news.const";
-import {NewsModel, NewsModelData} from "./news.models";
+import { NewsModelData} from "./news.models";
 
 export const apiSlice = createApi({
     reducerPath: "api",
