@@ -16,7 +16,7 @@ export const apiSlice = createApi({
     endpoints: (builder) => ({
         fetchNews: builder.query<NewsModelData, void>({
             query: () => ({
-                url: 'everything?q=apple&apiKey=d29f88bf32124ff980bdae4ee326b674',
+                url: `everything?q=apple&apiKey=${NEWS_API_KEY}`,
             }),
             providesTags:['News']
         }),
